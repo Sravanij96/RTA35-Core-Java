@@ -22,9 +22,7 @@ package com.bharath.oops.assignment;
     }
 
 
-    public void setBalance(double balance) {
-        this.balance = balance;
-    }
+
 
     public  BankAccount(double initialBalance, int accountNumber, String accountHolderName){
         if (initialBalance >= 0) {
