@@ -21,9 +21,6 @@ package com.bharath.oops.assignment;
         this.accountHolderName = accountHolderName;
     }
 
-
-
-
     public  BankAccount(double initialBalance, int accountNumber, String accountHolderName){
         if (initialBalance >= 0) {
             this.balance = initialBalance;
@@ -34,9 +31,7 @@ package com.bharath.oops.assignment;
         this.accountHolderName = accountHolderName;
     }
     public void deposit(double amount) {
-        // login
-        // authentication
-        //authorization
+
         if (amount > 0) {
             balance += amount; // balance = balance + amount
             System.out.println("Deposited: "+ amount+" Account Holder Name :: "+accountHolderName+" Account Number :: " +accountNumber+" final balance :: " +balance);
